@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, .container, header, .section, .aside {
+  padding: 0 20px 20px 20px;
+}
+
+body, .container, header, .section, .aside, footer  {
+  border: 1px solid;
+}
+
+body {
+  margin: 10px 100px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+p span {
+  color: red;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+nav {
+  border: 1px dashed;
+  padding: 0 20px;
+}
+
+.section {
+  width: 68%;
+  float: left;
+}
+
+.article {
+  height: 100px;
+  border: 1px dashed;
+}
+.article.one {
+  margin-bottom: 20px;
+}
+
+.aside {
+  width: 30%;
+  float: right;
+}
+
+.aside-section {
+  height: 100px;
+  border: 1px dashed;
+}
+
+.aside-section.one {
+  margin-bottom: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+footer {
+  padding: 0 20px;
+  margin-top: 20px;
+}

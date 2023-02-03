@@ -1,0 +1,19 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;900&display=swap');
+
+@font-face {
+  font-family: MoonDance;
+  src: url(./assets/MoonDance-Regular.ttf);
+}
+
+h1 {
+  color: aqua;
+  background-color: lightcoral;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+h3 { 
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}

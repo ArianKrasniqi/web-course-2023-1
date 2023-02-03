@@ -1,0 +1,10 @@
+/* @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap'); */
+
+@font-face {
+  font-family: EastSea;
+  src: url(./assets/EastSeaDokdo-Regular.ttf);
+}
+
+h1 {
+  font-family: EastSea, cursive;
+}

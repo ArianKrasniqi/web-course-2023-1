@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <form action="https://www.google.com/" method="get">
+    <div>
+      <label for="first-name">
+        First Name
+      </label>
+      <input 
+        type="text"
+        id="first-name"
+        name="first-name"
+        placeholder="Enter your name..."
+        required
+      >
+    </div>
+
+    <div>
+      <p>Favorite Fruit:</p>  
+      <input type="checkbox" name="fruit" id="apple" value="apple">
+      <label for="apple">Apple</label>
+
+      <input type="checkbox" name="fruit" id="orange" value="orange">
+      <label for="orange">Orange</label>
+      
+      <input type="checkbox" name="fruit" id="strawberry" value="strawberry">
+      <label for="strawberry">Strawberry</label>
+    </div>
+
+    <div>
+      <p>Select gender:</p>
+
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" value="female">
+
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="male">
+    </div>
+
+    <div>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter you email..." required>
+    </div>
+
+    <div>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter you password..." required>
+    </div>
+
+    <div>
+      <label for="date-of-birth">Date of birth</label>
+      <input type="date" id="date-of-birth" name="date-of-birth" placeholder="Write you birth date...">
+    </div>
+    <div>
+      <p>Enter something for yourself</p>
+      <textarea name="content" rows="10" cols="100"></textarea>
+    </div>
+    <div>
+      <label for="contries">Country of origin</label>
+      <select name="contries" id="contries">
+        <option value="albania">Albania</option>
+        <option value="us">US</option>
+        <option value="uk">UK</option>
+        <option value="aaaaaaaa">Germany</option>
+      </select>
+    </div>
+    
+    <input list="languages">
+    <datalist id="languages">
+      <option value="Javascript">
+      <option value="Java">
+      <option value="PHP">
+      <option value="Go">
+      <option value="Python">
+    </datalist>
+
+    <dl>
+      <dt>Html</dt>
+      <dd>- Hyper Text Markup Language</dd>
+      <dt>CSS</dt>
+      <dd>- Cascading Style Sheet</dd>
+    </dl>
+
+    
+    <!-- <input type="submit" value="Regjistrohu"> -->
+    <button type="submit">Regjistrohu</button>
+  </form>
+</body>
+</html>
