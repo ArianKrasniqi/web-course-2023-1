@@ -1,0 +1,69 @@
+.box {
+  border: 2px solid;
+  height: 150px;
+  width: 150px;
+}
+
+.box.image {
+  
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.second {
+  position: relative;
+  /* top: 50px; */
+  left: 250px;
+  /* margin-top: 30px; */
+}
+
+.third {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  height: 60px;
+  width: 300px;
+}
+
+.sticky-box {
+  width: 100vw;
+  height: 60px;
+  background-color: lightsalmon;
+  position: sticky;
+  top: 0px;
+}
+
+.abs-parent {
+  width: 500px;
+  height: 400px;
+  position: relative;
+  border: 2px dashed green;
+}
+
+.abs-parent-2 {
+  width: 800px;
+  height: 500px;
+  border: 2px dashed blue;
+}
+
+.abs {
+  background-color: lightgreen;
+  position: absolute;
+  right: 0px;
+  z-index: 10;
+}
+
+.relative-box {
+  background-color: blueviolet;
+  position: relative;
+  right: 60px;
+}
+
+.box.shadow {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+}
