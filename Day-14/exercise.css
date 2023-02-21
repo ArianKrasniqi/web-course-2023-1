@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog {
+  width: 70vw;
+}
+
+.post {
+  background-color: blue;
+  height: 180px;
+  padding: 40px;
+}
+.line {
+  width: 100%;
+  height: 6px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.line.end {
+  width: 50%;
+}
+
+.post.first {
+  width: 55%;
+}
+
+.post.second {
+  width: 40%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom .post {
+  width: 30%;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
