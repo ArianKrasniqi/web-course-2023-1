@@ -10,15 +10,41 @@
   color: white;
   font-size: 20px;
   list-style-type: none;
+  height: 80px;
 }
 
 .navbar li {
   padding: 16px 14px;
+  cursor: pointer;
   /* display: inline-block; Second Way */
+}
+
+.navbar li:hover .dropdown {
+  display: block;
 }
 
 .selected {
   background-color: green;
+}
+
+.dropdown {
+  background-color: lightcoral;
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  margin-left: -14px;
+  margin-top: 16px;
+  display: none;
+}
+
+.cover {
+  height: calc(100vh - 80px);
+  background-color: lightcoral;
+}
+
+.about {
+  height: 100vh;
+  background-color: lightseagreen;
 }
 
 @media (max-width: 600px) {

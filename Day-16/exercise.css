@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 24%;
+  min-width: 300px;
+  height: 200px;
+  background-color: lightgray;
+  border: 1px solid;
+  margin: 10px;
+}
+
+.box p {
+  color: red;
+}
+
+div.box p {
+  color: blue;
+}
+
+.box p {
+  color: green !important;
+}

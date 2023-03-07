@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+}
+
+.box {
+  background-color: lightcoral;
+  height: 300px;
+  width: 300px;
+  margin-left: 50%;
+  /* transform: translate(-50%, 100px); */
+  translate: -50% 100px;
+  rotate: 0deg;
+  /* transform: skew(20deg, 40deg); */
+  /* transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: 0.5; */
+  transition: 1s ease;
+}
+
+.box:hover {
+  rotate: 45deg;
+  translate: -30% 100px;
+  scale: 1.3;
+}
