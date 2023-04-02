@@ -1,0 +1,1 @@
+console.log('Here is a console from 2nd script!.')
