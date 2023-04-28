@@ -1,12 +1,13 @@
 // Primitive Data Types
-// string
-// number
-// boolean
-// undefined
-// null
+  // string
+  // number
+  // boolean
+  // undefined
+  // null
 
 // Reference Data Types -> Complex Data
-// array
+  // arrays
+  // objects
 
 // const students = new Array('Meritoni', 'Hekurani')
 const students = ["Meritoni", "Hekurani", "Erza", "Dreni"];
