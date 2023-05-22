@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 250px;
+}
+
+.input-btn {
+  display: flex;
+  gap: 10px;
+}
+
+.input-btn input {
+  width: 100%;
+}
+
+#check-result {
+  margin-top: 20px;
+}
+
+#check-btn {
+  padding: 0px 12px;
+}
